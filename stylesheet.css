@@ -1,0 +1,368 @@
+html  {
+   height:100%;
+   font-size:1em;
+}
+body {
+   overflow-x:hidden;
+   height:100%;
+   width:100%;
+   position:fixed;
+}
+.wrap {
+   width:100%;
+   height:36em;
+   margin-left:auto;
+   margin-right:auto;
+}
+a,a:link,a:visited {
+ color:#FFFFFF;
+ text-decoration:none;
+}
+.sidelines {
+   position:absolute;
+   width:100%;
+   height:50%;
+   margin-left:-0.6em;
+   margin-right:auto;
+}
+.sideline {
+   position:relative;
+   height:8%;
+   width:30%;
+   background-color:#FFEB00;
+}
+#lineleft {
+   top:13em;
+   width:36.8%;
+   animation: lineleft 2s;
+   -webkit-animation: lineleft 2s;
+}
+@keyframes lineleft {
+   from {left:-37%;}
+   to {left:0;}
+}
+@-webkit-keyframes lineleft {
+   from {left:-37%;}
+   to {left:0;}
+}
+#lineright {
+   float:right;
+   top:11.57em;
+   width:36%;
+   animation: lineright 2s;
+   -webkit-animation: lineright 2s;
+}
+@keyframes lineright {
+   from {right:-37%;}
+   to {right:0;}
+}
+@-webkit-keyframes lineright {
+   from {right:-37%;}
+   to {right:0;}
+}
+.topcontent {
+   margin-left:auto;
+   margin-right:auto;
+   width:90%;
+   height:400px;
+   position:relative;
+}
+#headershowme {
+   width:50%;
+   height:40%;
+   float:left;
+   margin-left:-3em;
+   margin-right:auto;
+   text-align:center;
+   line-height:4em;
+}
+span2 { /* show me */
+   font-family:"telefonregular";
+   font-size:3em;
+   text-align:center;
+}
+span3 { /* the */
+   transform:rotate(-90deg);
+   ms-transform:rotate(-90deg);
+   -webkit-transform:rotate(-90deg);
+   display:inline-block;
+   font-family:'maditaregularregular';
+   font-size:1.3em;
+   margin-left:-0.4em;
+}
+span4 { /* best */
+   font-family:'fancy_antique_displayregular';
+   color:#FF1F1F;
+   font-size:4.3em;
+   margin-left:-0.2em;
+}
+span5 { /* in */
+   font-family:'cabrito_cond_boldcond_bold';
+   font-size:2.5em;
+   float:left;
+   margin-top:-.02em;
+   margin-left:0.75em;
+}
+span6 { /* dublin */
+   font-family:'zulia_proregular';
+   font-size:4em;
+   color:#429DFF;
+}
+span7 { /* city */
+   font-family: 'mtt_milanomedium';
+   font-size:1.7em;
+   margin-left:5em;
+   background:white;
+   padding-left:0.1em;
+}
+#headerindub {
+   width:45%;
+   height:40%;
+   float:right;
+   margin-left:auto;
+   margin-right:-3.5em;
+   margin-top:-24.1em;
+   text-align:center;
+   line-height:3em;
+}
+/* Main menu settings */
+#centeredmenu {
+   z-index:1000;
+   position:relative;
+   margin-left:auto;
+   margin-right:auto;
+   top:7em;
+   height:400px;
+   width:30%;
+}
+.menuarrow {
+   position:absolute;
+   margin-top:0em;
+   opacity:0.8;
+}
+.menuarrow:hover {
+   opacity:1;
+}
+#arrowleft {
+   transform:rotate(180deg);
+   -ms-transform:rotate(180deg);
+   -webkit-transform:rotate(180deg);
+   margin-left:-0.7em;
+}
+#arrowright {
+   margin-left:6em;
+}
+/* Top menu */
+#centeredmenu ul { /*whole menu*/
+   margin:0;
+   padding:0;
+   list-style:none;
+   float:right;
+   position:relative;
+   right:50%;
+   top:0em;
+}
+#centeredmenu ul li { /* menu 'select' */
+   padding:0;
+   float:left;
+   position:relative;
+   left:50%;
+}
+span1 { /* v */
+   color:white;
+}
+#centeredmenu ul li a { /* menu 'select' text */
+   font-family:"telefonregular";
+   display:block;
+   padding:.6em .5em .4em;
+   font-size:1.2em;
+   line-height:1em;
+   background:#FFEB00;
+   text-decoration:none;
+   color:black;
+}
+#centeredmenu ul li.active a {
+   color:white;
+   background:grey;
+}
+#centeredmenu ul li a:hover {
+   background:#4C4300;
+   color:white;
+}
+#foodmenu {
+   height:400px;
+}
+#shoppingmenu {
+   display:none;
+   height:400px;
+}
+#activitiesmenu {
+   display:none;
+   height:400px;
+}
+#nightlifemenu {
+   display:none;
+   height:400px;
+}
+.menutitle {
+   margin-left:auto;
+   margin-right:auto;
+   margin-bottom:-1.5em;
+   width:30%;
+   height:10%;
+   font-size:0.7em;
+   line-height:2em;
+}
+#title_food {
+   font-family:'brandon_text_regularregular';
+   text-transform: uppercase;
+   color:grey;
+   text-align:center;
+   vertical-align:middle;
+}
+#title_shopping {
+   font-family:'brandon_text_regularregular';
+   text-transform: uppercase;
+   color:grey;
+   text-align:center;
+   vertical-align:middle;
+}
+#title_activities {
+   font-family:'brandon_text_regularregular';
+   text-transform: uppercase;
+   color:grey;
+   text-align:center;
+   vertical-align:middle;
+}
+#title_nightlife {
+   font-family:'brandon_text_regularregular';
+   text-transform: uppercase;
+   color:grey;
+   text-align:center;
+   vertical-align:middle;
+}
+/* Submenu items */
+#centeredmenu ul ul {
+   display:none; 
+   position:absolute;
+   top:2.35em;
+   right:auto;
+   width:10em;
+}
+#centeredmenu ul ul li {
+   left:auto;
+   clear:left;
+   width:82.5%;
+}
+#centeredmenu ul li:hover ul li a {
+   background:none;
+   color:black;
+   line-height:1.2em;
+   opacity:0.4;
+   font-size:1em;
+}
+#centeredmenu ul li:hover ul li a:hover {
+   background:#4C4300;
+   color:white;
+   opacity:1;
+}
+/* Make sub menu appear on hover */
+#centeredmenu ul li:hover ul {
+   display:block;
+}
+.bottomcontent {
+   margin-left:-2%;
+   margin-right:auto;
+   width:102%;
+   height:16.5em;
+   position:relative;
+   top:-5em;
+   margin-bottom:-16.5em;
+}
+.bottompanel {
+   width:100%;
+   height:100%;
+   color:black;
+   font-family:"telefonregular";
+   position:absolute;
+   top:20em;
+   padding-left:1em;
+   display:none;
+}
+#burgerpanel {
+   background-color:#e74c3c;
+}
+#fishchipspanel {
+   background-color:#9b59b6;
+}
+#coffeepanel {
+   background-color:#69BFAD;
+}
+#breakfastpanel {
+   background-color:#2980b9;
+}
+#icecreampanel {
+   background-color:#2ecc71;
+}
+#pizzapanel {
+   background-color:#e67e22;
+}
+td {
+   text-align:center;
+   vertical-align:middle;
+   line-height:100%;
+   color:white;
+}
+.mapbutton {
+   position:relative;
+   height:4em;
+   width:7em;
+   background-color:white;
+   color:grey;
+   font-size:1.2em;
+   text-align:center;
+   vertical-align:middle;
+   line-height:4em;
+   top:1em;
+   left:35%;
+}
+.mapbutton:hover {
+   opacity:0.4;
+   color:black;
+}
+.exitbutton {
+   font-family:'brandon_text_regularregular';
+   height:1.5em;
+   width:1.5em;
+   float:right;
+   position:relative;
+   top:-7em;
+   right:2em;
+   border-radius:100%;
+   background-color:white;
+   color:black;
+   text-align:center;
+   vertical-align:middle;
+   line-height:1.4em;
+   opacity:0.4;
+}
+.exitbutton:hover {
+   opacity:1;
+   animation: exit 0.5s;
+   -webkit-animation: exit 0.5s;
+}
+@-moz-keyframes exit {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes exit {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes exit {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+#coffeepanel table tr td a img {
+   margin-left:0.7em;
+}

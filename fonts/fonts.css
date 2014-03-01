@@ -1,0 +1,161 @@
+
+
+@font-face {
+    font-family: 'mtt_milanomedium';
+    src: url('mttmilano-medium-webfont.eot');
+    src: url('mttmilano-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('mttmilano-medium-webfont.woff') format('woff'),
+         url('mttmilano-medium-webfont.ttf') format('truetype'),
+         url('mttmilano-medium-webfont.svg#mtt_milanomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'zulia_proregular';
+    src: url('zuliapro-webfont.eot');
+    src: url('zuliapro-webfont.eot?#iefix') format('embedded-opentype'),
+         url('zuliapro-webfont.woff') format('woff'),
+         url('zuliapro-webfont.ttf') format('truetype'),
+         url('zuliapro-webfont.svg#zulia_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'fancy_antique_displayregular';
+    src: url('fancyantiquedisplay-webfont.eot');
+    src: url('fancyantiquedisplay-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fancyantiquedisplay-webfont.woff') format('woff'),
+         url('fancyantiquedisplay-webfont.ttf') format('truetype'),
+         url('fancyantiquedisplay-webfont.svg#fancy_antique_displayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'maditaregularregular';
+    src: url('madita-regular-webfont.eot');
+    src: url('madita-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('madita-regular-webfont.woff') format('woff'),
+         url('madita-regular-webfont.ttf') format('truetype'),
+         url('madita-regular-webfont.svg#maditaregularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'brandon_text_regularregular';
+    src: url('brandontext-regular-webfont.eot');
+    src: url('brandontext-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('brandontext-regular-webfont.woff') format('woff'),
+         url('brandontext-regular-webfont.ttf') format('truetype'),
+         url('brandontext-regular-webfont.svg#brandon_text_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'brandon_grotesquethin';
+    src: url('brandongrotesque-thin-webfont.eot');
+    src: url('brandongrotesque-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('brandongrotesque-thin-webfont.woff') format('woff'),
+         url('brandongrotesque-thin-webfont.ttf') format('truetype'),
+         url('brandongrotesque-thin-webfont.svg#brandon_grotesquethin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'brandon_grotesquebold';
+    src: url('brandongrotesque-bold-webfont.eot');
+    src: url('brandongrotesque-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('brandongrotesque-bold-webfont.woff') format('woff'),
+         url('brandongrotesque-bold-webfont.ttf') format('truetype'),
+         url('brandongrotesque-bold-webfont.svg#brandon_grotesquebold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'brandon_grotesquemedium';
+    src: url('brandongrotesque-medium-webfont.eot');
+    src: url('brandongrotesque-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('brandongrotesque-medium-webfont.woff') format('woff'),
+         url('brandongrotesque-medium-webfont.ttf') format('truetype'),
+         url('brandongrotesque-medium-webfont.svg#brandon_grotesquemedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'brandon_grotesque_regularRg';
+    src: url('brandongrotesque-regular-webfont.eot');
+    src: url('brandongrotesque-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('brandongrotesque-regular-webfont.woff') format('woff'),
+         url('brandongrotesque-regular-webfont.ttf') format('truetype'),
+         url('brandongrotesque-regular-webfont.svg#brandon_grotesque_regularRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'globersemibold';
+    src: url('fontfabric_-_globersemibold-webfont.eot');
+    src: url('fontfabric_-_globersemibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fontfabric_-_globersemibold-webfont.woff') format('woff'),
+         url('fontfabric_-_globersemibold-webfont.ttf') format('truetype'),
+         url('fontfabric_-_globersemibold-webfont.svg#globersemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'cabrito_cond_boldcond_bold';
+    src: url('insigne_-_cabrito-conbol-webfont.eot');
+    src: url('insigne_-_cabrito-conbol-webfont.eot?#iefix') format('embedded-opentype'),
+         url('insigne_-_cabrito-conbol-webfont.woff') format('woff'),
+         url('insigne_-_cabrito-conbol-webfont.ttf') format('truetype'),
+         url('insigne_-_cabrito-conbol-webfont.svg#cabrito_cond_boldcond_bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'telefonregular';
+    src: url('telefon-regular-webfont.eot');
+    src: url('telefon-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('telefon-regular-webfont.woff') format('woff'),
+         url('telefon-regular-webfont.ttf') format('truetype'),
+         url('telefon-regular-webfont.svg#telefonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
